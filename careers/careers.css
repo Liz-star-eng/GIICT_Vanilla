@@ -1,0 +1,266 @@
+/* landing page */
+main {
+  padding: 13rem 0 1rem 0;
+}
+.landingPage .hero {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("../assets/bg.avif");
+  height: 30vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+  color: #f9be2a;
+}
+.landingPage .hero h2 {
+  padding: 10rem;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 40px;
+}
+.landingPage .container {
+  padding: 5rem;
+  width: 40%;
+}
+.landingPage .container h3 {
+  padding: 0 0 3rem 0;
+}
+/* categories styling */
+.landingPage .categories {
+  background-color: #652e89;
+  padding: 5rem 0;
+  text-align: center;
+}
+.landingPage .categories h2 {
+  color: aliceblue;
+}
+
+.landingPage .categories button {
+  margin-top: 20px;
+  height: 40px;
+  width: 20%;
+  border-radius: 20px;
+  color: #652e89;
+  border: none;
+}
+.landingPage .cards {
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.landingPage .card {
+  width: 25%;
+  background-color: azure;
+  box-shadow: 2px 2px 4px 2px #8140ac;
+}
+.landingPage .card img {
+  width: 100%;
+}
+.landingPage .card-body {
+  padding: 3rem 0;
+}
+.landingPage .field {
+  max-width: 50%;
+  display: flex;
+  /* justify-content: space-between; */
+  margin: auto;
+  text-align: left;
+}
+.landingPage .field-item {
+  color: #2283d2;
+  margin-left: 2.5rem;
+}
+
+/* end of landing page */
+
+
+/* listing page */
+.listingPage .maincontent {
+  padding: 4rem 10rem 1rem 10rem;
+}
+
+.listingPage .herobg {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("../../assets/bg.avif");
+  height: 30vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+}
+
+.listingPage h1 {
+  padding: 10rem 17rem;
+  color: white;
+  font-weight: bold;
+}
+.listingPage .content {
+  max-width: 95%;
+  margin: auto;
+  display: flex;
+}
+/* left side */
+.listingPage .sidenav {
+  padding: 0;
+  left: 0;
+  width: 20%;
+  height: 100%;
+}
+.listingPage .inputs {
+  white-space: nowrap;
+}
+.listingPage label {
+  position: relative;
+  vertical-align: text-top;
+  word-wrap: break-word;
+}
+.listingPage input {
+  margin-top: 20px;
+  width: 30px;
+  height: 20px;
+}
+.listingPage input:hover {
+  cursor: pointer;
+}
+.listingPage h2 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.listingPage select {
+  margin: 50px;
+  padding: 1rem 0.5rem;
+  border-radius: 20px;
+  color: #652e89;
+  font-weight: bold;
+}
+
+/* end */
+.listingPage .grid-container {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap: 40px;
+  padding: 30px;
+  margin: 0 0 0 50px;
+}
+.listingPage .card {
+  background-color: whitesmoke;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.listingPage .card img {
+  width: 100%;
+}
+.listingPage .card-body {
+  padding: 2rem 3rem 3rem 3rem;
+}
+.listingPage .card-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #652e89;
+}
+.listingPage .card-title:hover {
+  text-decoration: none;
+  color: #652e89;
+}
+.listingPage .card-text {
+  margin-top: 2.5rem;
+  display: flex;
+}
+/* card labels */
+.listingPage .field {
+  display: flex;
+  /* justify-content: space-between; */
+  margin: auto;
+  text-align: left;
+}
+.listingPage .field-item {
+  color: #2283d2;
+  margin-left: 2.5rem;
+}
+.listingPage .inputs:hover {
+  background-color: whitesmoke;
+  box-shadow: 0 2px 3px 1px rgb(214, 212, 212);
+}
+.listingPage .navigation {
+  justify-content: space-around;
+  text-align: center;
+}
+
+.listingPage .navigation a {
+  margin: 10px;
+  background-color: whitesmoke;
+  /* border-radius: 10px; */
+  padding: 5px;
+  color: #652e89;
+}
+.listingPage .navigation a:hover,
+.navigation .active {
+  background-color: #652e89;
+  color: #ffc527;
+}
+@media (max-width: 1300px) {
+  .listingPage .grid-container {
+    grid-template-columns: 50% 50%;
+  }
+}
+@media (max-width: 1120px) {
+  .listingPage .maincontent {
+    padding: 4rem 5rem 1rem 5rem;
+  }
+  .listingPage .sidenav {
+    padding: 0;
+    width: 100%;
+  }
+  .listingPage .sidenav label {
+    font-size: 2rem;
+    margin-top: 0;
+  }
+  .listingPage .content {
+    flex-wrap: wrap;
+  }
+  .listingPage .container {
+    padding: 0;
+    margin: 0;
+  }
+  .listingPage .grid-container {
+    padding: 0;
+    margin: 0;
+  }
+  .listingPage .navigation {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .listingPage .maincontent {
+    padding: 4rem 2rem 1rem 2rem;
+    overflow: hidden;
+  }
+  .listingPage h1 {
+    padding: 12rem 8rem;
+  }
+  .listingPage .sidenav {
+    padding: 0;
+    width: auto;
+  }
+  .listingPage .sidenav label {
+    font-size: 1.5rem;
+  }
+
+  /* grid items */
+
+  .listingPage .grid-container {
+    width: 100%;
+    grid-template-columns: 100%;
+  }
+}

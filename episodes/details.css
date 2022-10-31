@@ -1,0 +1,179 @@
+
+.main-body {
+  padding: 15rem 5rem 5rem 5rem;
+}
+.row {
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+}
+
+.news {
+  text-align: left;
+  font-size: 35px;
+  font-style: italic;
+}
+
+.news-content {
+  flex-basis: 50%;
+  width: 70%;
+}
+.news-content img {
+  height: 50vh;
+  width: 100% !important;
+  object-fit: cover;
+  object-position: center;
+}
+.related-news {
+  text-align: center;
+}
+
+nav {
+  margin: 9rem 2rem 3rem 5rem;
+  background-color: #ececec;
+  padding-bottom: 3rem;
+}
+
+nav a,
+a p {
+  margin-top: 2rem;
+  color: #652e89;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+}
+nav h3,
+nav h2 {
+  background-color: #3c1655;
+  color: #ffc527;
+  padding: 3px;
+}
+
+.related-news a:hover {
+  color: #574105;
+  text-decoration: none;
+}
+.related-news img {
+  width: 70%;
+}
+.related-news img:hover {
+  width: 71%;
+  transition: 0.3s ease-in-out;
+}
+p {
+  margin-top: 10px;
+  text-align: left;
+}
+.sub-heading {
+  font-style: italic;
+  font-size: 20px;
+}
+
+.container {
+  display: block;
+  padding: 1rem;
+}
+.message {
+  width: 60%;
+  height: 60px;
+  padding: 0 0 0 10px;
+}
+
+input::placeholder {
+  font-style: italic;
+}
+input {
+  margin-top: 20px;
+  width: 29%;
+}
+.input {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+input:nth-child(2) {
+  margin-left: 20px !important;
+}
+
+button {
+  background-color: #652e89;
+  color: #ffc527;
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+}
+
+button:hover {
+  background-color: #3c1655;
+}
+
+.break {
+  border: 1px solid #652e89;
+}
+
+@media (max-width: 1310px) {
+  .main-body {
+    padding: 15rem 5rem 1rem 5rem;
+  }
+  .row {
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 1002px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .news-content {
+    width: 100%;
+  }
+  .RN {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .main-body {
+    padding: 15rem 5rem 1rem 5rem;
+  }
+  .row {
+    padding: 1rem 5rem;
+  }
+  .message {
+    width: 80%;
+  }
+  input {
+    width: 39%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .row {
+    padding: 0 1px 1px 1px;
+  }
+  p {
+    text-align: justify;
+  }
+  input {
+    width: 100%;
+  }
+  input:nth-child(2) {
+    margin-left: 0 !important;
+    margin-bottom: 1rem !important;
+  }
+  .related-news {
+    width: 100%;
+  }
+
+  nav {
+    margin-left: 0;
+  }
+  nav a p {
+    font-size: 12px !important;
+  }
+  .RN {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="icon" href="../favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+
+    <title>GirlsInICT</title>
+    <link rel="stylesheet" href="/header-footer/header-footer.css" />
+    <link rel="stylesheet" href="contact.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="body">
+        <!--   Start TopNav   -->
+        <div class="TopNav">
+            <div class="header">
+                <nav class="topBar bigscreen">
+                    <div class="H-container">
+                        <div class="user">
+                            <a href="/aboutUs/aboutus.html"><i class="fa fa-user"></i> About Us</a>
+                            <a href="/contact/contactUs.html" class="cta"> Ask for help </a>
+                        </div>
+                        <div class="social">
+                            <a class="text" href="../users/login.html"><i class="fa fa-sign-in" aria-hidden="true"></i>
+                                Login
+                            </a>
+                            <div class="socialIcons">
+                                <a href=""><i class="fa fa-facebook"></i></a>
+                                <a href=""><i class="fa fa-linkedin"></i></a>
+                                <a href=""><i class="fa fa-twitter"></i></a>
+                                <a href=""><i class="fa fa-instagram"></i></a>
+                                <a href=""><i class="fa fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+                <header>
+                    <div class="navBar">
+                        <a href="/index.html" class="title"><img src="../assets/girlslogo.png" alt="" />
+                        </a>
+                        <nav class="menuItems">
+                            <li class="dropdown">
+                                <a class="dropbtn"><i class="fa fa-address-book-o"></i> Directory
+                                    <i class="fa fa-chevron-down"></i></a>
+                                <div class="dropdown-content">
+                                    <a href="/mentors/mentors.html">Mentors</a>
+                                    <a href="/careers/careersLanding.html">Careers</a>
+                                    <!-- <a href="" to="/StudentsViews">Students</a> -->
+                                </div>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropbtn"><i class="fa fa-folder-open-o"></i> Forum
+                                    <i class="fa fa-chevron-down"></i></a>
+                                <div class="dropdown-content">
+                                    <!--                    <a href="" to="/moccorner">MoC Corner</a>-->
+                                    <a href="/forum/letsChat.html">Let's Chat</a>
+                                </div>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropbtn"><i class="fa fa-graduation-cap"></i> Training
+                                    <i class="fa fa-chevron-down"></i></a>
+                                <div class="dropdown-content">
+                                    <a href="/Training/primary.html">Primary/JHS</a>
+                                    <a href="/Training/shs.html">SHS</a>
+                                    <a href="/Training/tertiary.html">Tertiary</a>
+                                </div>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropbtn"><i class="fa fa-fire"></i> Episodes
+                                    <i class="fa fa-chevron-down"></i></a>
+                                <div class="dropdown-content">
+                                    <a href="/episodes/upcoming.html">Upcoming</a>
+                                    <a href="/episodes/past.html">Past</a>
+                                </div>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropbtn"><i class="fa fa-archive"></i> Information Hub
+                                    <i class="fa fa-chevron-down"></i></a>
+                                <div class="dropdown-content">
+                                    <a href="/cybersecurity/CyberSecurity.html">Cybersecurity</a>
+                                </div>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropbtn"><i class="fa fa-tasks"></i> Programs
+                                    <i class="fa fa-chevron-down"></i></a>
+                                <div class="dropdown-content">
+                                    <a href="/cybersecurity/cybersecurity.html">CyberSecurity</a>
+                                    <a href="/cybersecurity/programming.html">Programming</a>
+                                </div>
+                            </li>
+                        </nav>
+
+                        <div class="search-bar">
+                            <!-- <input type="text" placeholder="what's on your mind" /> -->
+                            <button onclick="openSearch()"><i class="fa fa-search"></i></button>
+                        </div>
+                        <i class="fa fa-bars menuBars" onclick="toggleNav()"></i>
+                    </div>
+                </header>
+
+                <!-- toggle navbar -->
+                <div class="ResponsiveNav slideUp" onclick="close()">
+                    <nav class="NavItems">
+                        <li class="dropdown">
+                            <a class="dropbtn"><i class="fa fa-address-book-o"></i> Directory
+                                <i class="fa fa-chevron-down arrow-down"></i></a>
+                            <div class="dropdown-content">
+                                <!-- <a href="/directorylistings">Mentors</a> -->
+                                <a href="/mentors/mentors.html">Mentors</a>
+                                <a href="/careers/careers">Careers</a>
+                                <!-- <a href="/StudentsViews">Students</a> -->
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropbtn"><i class="fa fa-folder-open-o"></i> Forum
+                                <i class="fa fa-chevron-down arrow-down"></i></a>
+                            <div class="dropdown-content">
+                                <a href="/forum/letsChat.html">Let's Chat</a>
+                                <!-- <a href="/moccorner">Mentors</a>
+                  <a href="/careers">Carreers</a> -->
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropbtn"><i class="fa fa-graduation-cap"></i>Training
+                                <i class="fa fa-chevron-down arrow-down"></i></a>
+                            <div class="dropdown-content">
+                                <a href="/Training/primary.html">Primary/JHS</a>
+                                <a href="/Training/shs.html">SHS</a>
+                                <a href="/Training/tertiary.html">Tertiary</a>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropbtn"><i class="fa fa-fire"></i> Events
+                                <i class="fa fa-chevron-down arrow-down"></i></a>
+                            <div class="dropdown-content">
+                                <a href="/episodes/upcoming.html">Upcoming</a>
+                                <a href="/episodes/past.html">Past</a>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropbtn"><i class="fa fa-archive"></i> Information Hub
+                                <i class="fa fa-chevron-down arrow-down"></i></a>
+                            <div class="dropdown-content">
+                                <a href="/cybersecurity/CyberSecurity.html">Cybersecurity</a>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropbtn"><i class="fa fa-archive"></i> Programs
+                                <i class="fa fa-chevron-down arrow-down"></i></a>
+                            <div class="dropdown-content">
+                                <a href="/cybersecurity/CyberSecurity.html">CyberSecurity</a>
+                                <a href="/cybersecurity/programming.html">Programming</a>
+                            </div>
+                        </li>
+                    </nav>
+                    <div class="sectionAsk">
+                        <div class="search-bar">
+                            <input type="text" placeholder="What are you looing for?" />
+                            <button><i class="fa fa-search"></i></button>
+                        </div>
+                    </div>
+                    <a onclick="close()">
+                        <i onclick="close()" id="close" class="fa fa-times close"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="myOverlay" class="overlay">
+            <span class="closebtn" onclick="closeSearch()" title="Close Overlay">x</span>
+            <div class="overlay-content">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." />
+                    <button type="submit" class="tab-search">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+        <!--   End TopNav   -->
+
+        <!-- start content -->
+        <section>
+            <div class="container">
+                <div class="title">
+                    <h1>Get in touch with Us!</h1>
+                    <p>
+                        We’re very easy to reach and we would love to help you in any way we
+                        can. <br />
+                        Don’t hesitate to fill the form below and we’ll get back to you as
+                        soon as possible.
+                    </p>
+                </div>
+                <div class="row2">
+                    <div class="cln1">
+                        <form>
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" name="fname" placeholder="Abigail" />
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name="lname" placeholder="Teye" />
+                            <label for="lname">Email</label>
+                            <input type="email" id="email" name="email" placeholder="liz@gmail.com" />
+                            <label for="lname">Message</label>
+                            <textarea rows="4" cols="50" name="Msg" id="textarea" placeholder="Type your message here..">
+        Enter text here...</textarea>
+        
+                            <button type="submit">Send</button>
+                        </form>
+                    </div>
+                    <div class="cln2">
+                        <div>
+                            <h4>Contact</h4>
+                            <h6>+233 00 00 00 00</h6>
+                            <h6>030 00 00 00 00</h6>
+                            <h6>+233 00 00 00 00</h6>
+                        </div>
+                        <hr />
+                        <div>
+                            <h4>Email</h4>
+                            <div>
+                                <h6>info@girlsinict.org</h6>
+                            </div>
+                            <div>
+                                <h6>girlsinict@gmail.com</h6>
+                            </div>
+                        </div>
+                        <hr />
+                        <div>
+                            <h4>Location</h4>
+                            <div>
+                                <h6>GPS: GA-079-0539</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7942.10523415975!2d-0.19252!3d5.55922!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x33852c3863b53672!2sMinistry%20of%20Communications!5e0!3m2!1sen!2sgh!4v1659617993941!5m2!1sen!2sgh"
+                            width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end content -->
+
+        <!-- Start Partners  -->
+        <div class="partners">
+            <h2>Our Partners</h2>
+            <div class="jumbotron">
+                <div id="largeCarousel" class="carousel slide largeScreens" data-ride="carousel">
+                    <!-- Carousel Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#largeCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#largeCarousel" data-slide-to="1"></li>
+                        <li data-target="#largeCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <!-- flex carousel items-->
+                    <div class="carousel-inner">
+                        <div class="item active row">
+                            <div class="col-sm-2"></div>
+                            <div class="col-sm-3">
+                                <img src="../assets/moc_logo_2.jpg" alt="Los Angeles" />
+                            </div>
+                            <div class="col-sm-3">
+                                <img class="nita" src="../assets/nita-logo.png" alt="Chicago" />
+                            </div>
+                            <div class="col-sm-3">
+                                <img src="../assets/gi-kace-logo.png" alt="New york" />
+                            </div>
+                            <div class="col-sm-1"></div>
+                        </div>
+                        <div class="item row">
+                            <div class="col-sm-2"></div>
+                            <div class="col-sm-3">
+                                <img src="../assets/moc_logo_2.jpg" alt="Los Angeles" />
+                            </div>
+                            <div class="col-sm-3">
+                                <img class="nita" src="../assets/nita-logo.png" alt="Chicago" />
+                            </div>
+                            <div class="col-sm-3">
+                                <img src="../assets/gi-kace-logo.png" alt="New york" />
+                            </div>
+                            <div class="col-sm-1"></div>
+                        </div>
+                        <div class="item row">
+                            <div class="col-sm-2"></div>
+                            <div class="col-sm-3">
+                                <img src="../assets/moc_logo_2.jpg" alt="Los Angeles" />
+                            </div>
+                            <div class="col-sm-3">
+                                <img class="nita" src="../assets/nita-logo.png" alt="Chicago" />
+                            </div>
+                            <div class="col-sm-3">
+                                <img src="../assets/gi-kace-logo.png" alt="New york" />
+                            </div>
+                            <div class="col-sm-1"></div>
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#largeCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#largeCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+                <!-- small screens -->
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="../assets/moc_logo_2.jpg" alt="Los Angeles" />
+                        </div>
+
+                        <div class="item">
+                            <img src="../assets/nita-logo.png" alt="Chicago" />
+                        </div>
+
+                        <div class="item">
+                            <img src="../assets/gi-kace-logo.png" alt="New york" />
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--   End Partners   -->
+
+        <!--   Start Footer   -->
+        <div class="footer">
+            <div class="section">
+                <div class="whitelogo">
+                    <a href="/index.html"><img src="../assets/white-girlslogo.png" alt="" /></a>
+                </div>
+                <div class="Links">
+                    <h4>Quick Links</h4>
+                    <hr class="underline" />
+                    <a href="/aboutUs/aboutUs.html">About Us</a><br />
+                    <a href="">Competition</a><br />
+                    <a href="/contact/contactUs.html">Contact Us</a><br />
+                    <a href="/FQA/FQA.html">FAQ</a><br />
+                </div>
+                <div class="contact">
+                    <h4>Contact Us</h4>
+                    <hr class="underline" />
+                    <p>+233 00 00 00 00</p>
+                    <p>030 00 00 00 00</p>
+                    <p>+233 00 00 00 00</p>
+                </div>
+                <div class="social">
+                    <h4>Social Media</h4>
+                    <hr class="underline" />
+
+                    <li>
+                        <a href=""><i class="fa fa-facebook"></i></a>
+                        <a href=""><i class="fa fa-instagram"></i></a>
+                        <a href=""><i class="fa fa-linkedin"></i></a>
+                        <a href=""><i class="fa fa-twitter"></i></a>
+                        <a href=""><i class="fa fa-youtube"></i></a>
+                    </li>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="copyright-container">
+                    <div>
+                        <p>
+                            <i>
+                                Copyright @GrlsinCyberSecurityGH | powered by
+                                <a href="https://www.aiti-kace.com.gh/" target="_blank">AITI-KACE</a></i>
+                        </p>
+                    </div>
+                    <div>
+                        <a href="/privacy"> Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--   End Footer   -->
+    </div>
+    <script>
+        const nav = document.querySelector(".ResponsiveNav");
+
+        function toggleNav() {
+            if (nav.className === "ResponsiveNav") {
+                nav.className += " slideUp";
+            } else {
+                nav.className = "ResponsiveNav";
+            }
+        }
+
+        function openSearch() {
+            document.getElementById("myOverlay").style.display = "block";
+        }
+
+        function closeSearch() {
+            document.getElementById("myOverlay").style.display = "none";
+        }
+    </script>
+
+    <!-- bootstrap cdn -->
+    <script src="https://use.fontawesome.com/c025c70727.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,170 @@
+.upComing .main-body {
+  padding: 15rem 10rem 0 10rem;
+  overflow: hidden;
+}
+
+.upComing .Events {
+  display: block;
+  margin: 20px;
+}
+
+.upComing .eventContent {
+  display: flex;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  margin: 20px;
+  padding: 10px 10px 3px 10px;
+}
+
+.upComing .eventContent .textContent {
+  padding: 3rem;
+}
+
+.upComing .eventContent img {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 10px;
+  margin: 0 30px 0 0;
+}
+
+.upComing .eventContent img:hover {
+  border-radius: 5px;
+  filter: brightness(0.5);
+  transition: 0.4s ease;
+}
+
+.upComing .symbol {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 2.5rem;
+}
+
+.upComing .symbol-text {
+  margin-right: 200px;
+}
+
+.upComing .symbol button {
+  border-radius: 5px;
+  color: #6f36bb;
+  padding: 5px;
+  border: 1px solid #6f36bb;
+}
+.upComing a:hover {
+  background-color: #6f36bb;
+}
+
+.upComing .symbol .fa {
+  color: #6f36bb;
+}
+/* container empowering women */
+.upComing .container {
+  padding: 0 6rem;
+}
+.upComing #myCarousel {
+    flex-basis: 50%;
+}
+
+.upComing .empower {
+  background-color: antiquewhite;
+  display: flex;
+  gap: 50px;
+  padding: 10rem 10rem;
+  align-content: center;
+}
+
+.upComing .empower .right {
+  flex-basis: 60%;
+  margin-bottom: 4rem;
+}
+
+.upComing .empower h2 {
+  font-size: 5rem;
+  padding-bottom: 20px;
+}
+.upComing .empower h2 strong {
+  padding-top: 3rem;
+  font-size: 7rem;
+  color: #652e89;
+}
+
+.upComing .empower img {
+  flex-basis: 50%;
+  width: 100%;
+  height: 430px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.upComing .col-sm-4 img {
+  border-radius: 10px;
+  width: 100%;
+}
+@media only screen and (max-width: 1033px) {
+  .upComing .main-body {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .upComing .eventContent {
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .upComing .empower {
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .upComing .main-body {
+    padding: 15rem 1px 0 1px;
+  }
+ .upComing .empower {
+    padding: 2rem 5rem;
+    align-content: justify;
+    margin-left: 0 !important;
+  }
+.upComing .empower img {
+    width: 400px;
+  }
+}
+
+@media (max-width: 600px) {
+  .upComing .main-body {
+    padding: 15rem 1rem 0 1rem;
+  }
+  .upComing .Events {
+    margin: 0 0 50px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .upComing .eventContent {
+    margin: 0;
+  }
+  .upComing .eventContent .textContent {
+    padding: 1rem;
+  }
+  .upComing .textContent {
+    text-align: justify;
+  }
+  .upComing .symbol {
+    padding: 5px 1px;
+    flex-wrap: nowrap;
+  }
+
+  .upComing .symbol-text {
+    margin-right: 0;
+  }
+  .upComing .eventContent img {
+    width: 100%;
+  }
+  .upComing .empower {
+    padding: 20px;
+  }
+  .upComing .empower img {
+    width: 100%;
+  }
+}
