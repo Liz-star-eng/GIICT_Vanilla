@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  giict-server:
+    build: .
+    restart: always
+    ports:
+      - ${PORT}:8080
+    volumes:
+      - web_data:/var/lib/web
+      - static_volume:/home/web/giict
+
+volumes:
+  static_volume:
+  web_data:
+    driver: local
