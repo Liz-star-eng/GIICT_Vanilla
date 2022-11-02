@@ -236,7 +236,7 @@ body {
   margin-left: 0;
 }
 .TopNav .NavItems .dropdown-content {
-  left: 28rem;
+  left: 16rem;
   top: 0;
   color: white;
   width: 50px;
@@ -354,6 +354,11 @@ body {
   .TopNav .menuBars {
     display: block;
   }
+}
+@media (max-width: 992px){
+  .TopNav .NavItems .dropdown-content {
+      left: 15rem;
+    }
 }
 
 @media (max-width: 600px) {
