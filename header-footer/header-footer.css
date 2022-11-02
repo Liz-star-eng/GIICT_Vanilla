@@ -183,7 +183,7 @@ body {
 
 /* responsivness */
 .TopNav .ResponsiveNav {
-  height: 45rem;
+  height: 55rem;
   background-color: whitesmoke;
   overflow: hidden;
   transition: height 1s ease-in-out;
@@ -198,7 +198,7 @@ body {
 }
 
 .TopNav .ResponsiveNav .dropdown-content {
-  margin-left: 20rem;
+  margin-left: 15rem;
 }
 .TopNav .slideUp {
   height: 0;
@@ -215,9 +215,9 @@ body {
 }
 .TopNav .NavItems li {
   display: block;
-  padding: 1.7rem 5.5rem;
+  padding: 1.2rem 5rem 2rem;
 }
-.TopNav.NavItems li a {
+.TopNav .NavItems li a {
   color: #652e89;
   text-align: center;
   padding: 14px 16px;
@@ -226,23 +226,23 @@ body {
   margin: 0 2rem 0.2rem 7rem;
 }
 
-.TopNav.NavItems li a:hover {
+.TopNav .NavItems li a:hover {
   color: #ffc527;
   transition: 0.3s;
 }
 
-.TopNav.NavItems .dropdown-content a {
+.TopNav .NavItems .dropdown-content a {
   font-size: 14px;
   margin-left: 0;
 }
-.TopNav.NavItems .dropdown-content {
-  left: 28rem;
+.TopNav .NavItems .dropdown-content {
+  left: 22.5rem;
   top: 0;
   color: white;
   width: 50px;
 }
 
-.TopNav.fa-chevron-down {
+.TopNav .fa-chevron-down {
   font-size: 14px;
   position: relative;
 }
@@ -354,15 +354,21 @@ body {
 
 @media (max-width: 600px) {
   .TopNav .NavItems li a {
-    margin-left: 2rem;
+    margin-left: 0;
   }
+    .TopNav .NavItems li{
+      padding: 1rem;
+    }
   .TopNav .socialIcons {
     display: none;
   }
 
   .TopNav .NavItems .dropdown-content {
-    left: 23rem;
+    left: 4rem;
   }
+    .ResponsiveNav a .arrow-down {
+      right: 2rem;
+    }
 }
 
 @media only screen and (max-width: 380px) {
