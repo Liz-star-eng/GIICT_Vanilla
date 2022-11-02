@@ -183,7 +183,7 @@ body {
 
 /* responsivness */
 .TopNav .ResponsiveNav {
-  height: 45rem;
+  height: 50rem;
   background-color: whitesmoke;
   overflow: hidden;
   transition: height 1s ease-in-out;
@@ -215,37 +215,41 @@ body {
 }
 .TopNav .NavItems li {
   display: block;
-  padding: 1.7rem 5.5rem;
+  padding: 1.2rem 5rem 1.2rem;
 }
-.TopNav.NavItems li a {
+.TopNav .NavItems li a {
   color: #652e89;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 10px;
   text-decoration: none;
   font-size: 16px;
   margin: 0 2rem 0.2rem 7rem;
 }
 
-.TopNav.NavItems li a:hover {
+.TopNav .NavItems li a:hover {
   color: #ffc527;
   transition: 0.3s;
 }
 
-.TopNav.NavItems .dropdown-content a {
+.TopNav .NavItems .dropdown-content a {
   font-size: 14px;
   margin-left: 0;
 }
-.TopNav.NavItems .dropdown-content {
+.TopNav .NavItems .dropdown-content {
   left: 28rem;
   top: 0;
   color: white;
   width: 50px;
 }
 
-.TopNav.fa-chevron-down {
+.TopNav .fa-chevron-down {
   font-size: 14px;
   position: relative;
 }
+
+
+
+
 /* Collapsible search */
 /* .openBtn {
   background: #f1f1f1;
@@ -361,7 +365,7 @@ body {
   }
 
   .TopNav .NavItems .dropdown-content {
-    left: 23rem;
+    left: 2rem;
   }
 }
 
