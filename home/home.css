@@ -1,0 +1,517 @@
+ .Content .main-body {
+      overflow: hidden;
+       padding: 13rem 0 1rem 0;
+    }
+    /* Hero background */
+    .Content .herobg, .Content .herotext {
+      height: 65vh;
+    }
+    .Content .herobg {
+      background-image: url("../assets/herobg.jpg");
+      background-repeat: no-repeat;
+      background-size: 100% 170%;
+    }
+
+    .Content .herotext {
+      display: flex;
+      padding: 12rem 30rem 0 22rem;
+      background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.798),
+        rgba(255, 255, 255, 0.001)
+      );
+    }
+    .Content .herotext .right {
+      width: 50%;
+    }
+
+    .Content .herotext button {
+      padding: 1.5rem 3.5rem;
+      border-radius: 10px;
+      border: none;
+      background-color: rgba(255, 197, 39, 0.8);
+      color: #652e89;
+      font-size: 18px;
+    }
+    .Content .herotext button:hover {
+      background-color: rgba(204, 153, 12, 0.8);
+      transition: 0.3s;
+    }
+
+    .Content .herotext h2,
+    .Content .herotext p {
+      color: white;
+    }
+
+    .Content .intro-cont {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 10%;
+    }
+
+    .Content .menus {
+      margin-top: -5rem;
+      position: relative;
+    }
+
+    .Content .menuHolder {
+      /* padding: 4rem 0; */
+      background-color: antiquewhite;
+      height: auto;
+      padding-bottom: 2rem;
+    }
+
+    .Content .menuHolder h1 {
+      text-align: center;
+      font-size: 3rem;
+    }
+
+    .Content .innerContainer {
+      padding: 20px;
+    }
+    .Content .innerContainer .menu {
+      display: flex;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+    }
+    .Content .innerContainer .menu a {
+      padding: 50px 70px;
+      background-color: #652e89;
+      margin: 10px;
+      color: white;
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+      font-size: 3rem;
+      transition-duration: 100ms;
+    }
+    .Content .innerContainer .menu .gb {
+      background-color: #ffc527;
+      color: #652e89;
+    }
+
+    .Content .innerContainer .menu a:hover {
+      background-color: white;
+      color: #652e89;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .Content .lst {
+      margin-bottom: 100px;
+    }
+
+    .Content .introduction {
+      display: flex;
+    }
+    .Content .con-wrapper {
+      padding: 10px;
+      max-width: 80%;
+      margin: auto;
+      display: flex;
+      margin-top: 70px;
+    }
+
+    .Content .con-wrapper .intro-text {
+      margin-right: 50px;
+      flex-basis: 50%;
+    }
+
+    .Content .con-wrapper .intro-text h2 {
+      font-size: 5rem;
+    }
+    .Content .con-wrapper .intro-text h2 strong {
+      padding-top: 3rem;
+      font-size: 7rem;
+      color: #652e89;
+    }
+
+    .Content .intro-pics {
+      flex-basis: 50%;
+      width: 100%;
+    }
+    .Content .intro-pics img {
+      width: 40%;
+      padding: 30px;
+    }
+
+    .Content .intro-pics .a2 {
+      margin: -350px 0 0 -60px;
+      border-radius: 0 80px 0 0;
+      box-shadow: #293139;
+    }
+    .Content .intro-pics .a1 {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .Content .wepro {
+      margin-top: 30px;
+      margin-bottom: 80px;
+    }
+
+    .Content .wepro h2 {
+      font-size: 4rem;
+      text-align: center;
+      margin: 20px 0;
+    }
+    .Content .wepro h2 strong {
+      padding-top: 3rem;
+      color: #652e89;
+    }
+
+    .Content .main {
+      margin-top: 25px;
+      flex-basis: 70%;
+    }
+
+    .Content .top-cards {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 0;
+      /* padding: 10px; */
+      gap: 10px;
+    }
+    .Content .top-card {
+      background-color: #293139;
+      color: white !important;
+      padding: 5rem 5rem;
+      border-radius: 5px;
+      text-align: center;
+    }
+    .Content .top-card h4 {
+      color: white;
+    }
+    .Content .top-card-mid {
+      background-color: #652e89;
+      padding: 0 10rem;
+    }
+
+    .Content .top-cards i {
+      margin-top: 70px;
+      font-size: 100px;
+    }
+
+    /* empower women section */
+    .Content .empower {
+      background-color: antiquewhite;
+      display: flex;
+      gap: 50px;
+      padding: 10rem 10rem;
+      align-content: center;
+    }
+
+    .Content .empower .right {
+      flex-basis: 60%;
+      margin-bottom: 4rem;
+    }
+
+    .Content .empower h2 {
+      font-size: 5rem;
+      padding-bottom: 20px;
+    }
+    .Content .empower h2 strong {
+      padding-top: 3rem;
+      font-size: 7rem;
+      color: #652e89;
+    }
+
+    .Content .empower img {
+      flex-basis: 50%;
+      width: 100%;
+      height: 430px;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .Content .col-sm-4 img {
+      border-radius: 10px;
+      width: 100%;
+    }
+    /* past events */
+    .Content .pastEvent h2 {
+      font-size: 4rem;
+      margin-top: 40px;
+      padding: 20px 0;
+      text-align: center;
+    }
+    .Content .pastEvent h2 strong {
+      padding-top: 3rem;
+      color: #652e89;
+    }
+
+    .Content .pastEvent .containerEvents {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 7.5rem;
+      padding: 0 4rem;
+    }
+    .Content .pastEvent .containerEvents a img {
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 10px;
+    }
+
+    /* whats our specialty card */
+    .Content .row-2 {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .Content .special h2 {
+      font-size: 4rem;
+      text-align: center;
+      margin-top: 40px;
+      padding: 20px 0;
+    }
+    .Content .special h2 strong {
+      padding-top: 3rem;
+      color: #652e89;
+    }
+
+    .Content .speciality-card {
+      margin-top: 30px;
+      text-align: center;
+      padding: 30px 20px;
+      width: 350px;
+
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 15px 1px lightgray;
+    }
+    .Content .speciality-card img {
+      margin: 80px 0 0 0;
+      width: 200px;
+      height: 200px;
+      object-position: center;
+      object-fit: cover;
+      border-radius: 100%;
+    }
+
+    .Content .partner {
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 5rem 1rem;
+      background-color: #652e89;
+      width: 100%;
+      gap: 10px;
+    }
+
+    .Content .partner .left {
+      font-weight: bold;
+    }
+    .Content .partner .left h4 {
+      font-weight: bold;
+      color: white;
+    }
+    .Content .partner .right button {
+      padding: 10px 15px;
+      background-color: white;
+      color: #652e89;
+      width: auto;
+      height: 50px;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .Content .partner .right button:hover {
+      background-color: #ffc527;
+      color: #652e89;
+    }
+
+    .Content p, .Content h2, .Content h3, .Content h4, .Content h5, .Content h6 {
+      color: black;
+    }.Content .Content
+
+    .Content .Content .links img {
+      height: 50px;
+      object-fit: cover;
+      width: auto;
+    }
+
+    .Content .Content .links {
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin: 0 0 10px 5rem;
+    }
+    .Content .Content .jumbotron {
+      height: 20vh;
+    }
+
+    .Content .Content .row5 button {
+      border-radius: 5px;
+      background-color: #6f36bb;
+      color: white;
+      height: 50px;
+      width: 300px;
+    }
+    .Content .mt-5 .carousel-inner {
+      height: 100px;
+      padding: 10px 0;
+    }
+    .Content .mt-5 .carousel-inner img {
+      height: 50px;
+      width: 200px;
+    }
+    .Content .mt-5 .carousel-inner .row {
+      display: flex;
+      justify-content: center;
+      padding: 10px 0 0 0;
+    }
+
+    /* minister's message */
+    .Content .con-wrapper3 {
+      padding: 0 10rem;
+    }
+
+    .Content .mins-msg {
+      display: flex;
+      align-items: center;
+      margin: 40px 0;
+    }
+    .Content .minsImage img {
+      height: 400px;
+      object-fit: cover;
+      object-position: center;
+    }
+    .Content .mins-text {
+      margin: 0 30px;
+    }
+
+    .Content .mins-text h2 {
+      font-size: 4rem;
+      padding: 20px 0;
+    }
+    .Content .mins-text h2 strong {
+      padding-top: 3rem;
+      color: #652e89;
+    }
+    /* end */
+    @media only screen and (max-width: 1280px) {
+       .Content .herotext {
+            /* width: 100%; */
+            padding: 18rem 0 0 7rem;
+          }
+        .Content .empower {
+          padding: 5.5rem;
+        }
+        .Content .empower .right h2, .Content .empower .right h2 strong {
+          font-size: 2rem;
+        }
+        .Content .con-wrapper3 {
+          padding: 2.5rem;
+        }
+    }
+    @media only screen and (max-width: 992px) {
+      .Content p {
+        font-size: 18px;
+      }
+        .Content .herobg, .Content .herotext {
+      height: 30vh;
+    }
+      .Content .herotext {
+        padding: 0;
+      }
+     .Content .herotext .right {
+        padding: 3rem 6rem;
+        width: 70%;
+      }
+       .Content .menus {
+      margin-top: -3rem;
+     }
+
+      .Content .innerContainer .menu {
+        flex-direction: column;
+      }
+        .Content .innerContainer .menu a {
+        height: auto;
+        padding: 20px 30px;
+        width: 100%;
+      }
+        .Content .mins-msg {
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+        .Content .con-wrapper3 {
+          padding: 0;
+        }
+        .Content .con-wrapper3 img {
+          width: 100%;
+          height: 100%;
+        }
+      .Content .empower {
+        flex-direction: column-reverse;
+      }
+
+      .Content .empower,
+      .Content .empower .right {
+        padding: 2rem;
+      }
+      .Content .empower .right h2, .empower .right h2 strong {
+      font-size: 5rem;
+    }
+     .Content .con-wrapper {
+        flex-direction: column;
+      }
+    }
+    @media only screen and (max-width: 600px) {
+      .Content .herobg, .Content .herotext {
+      height: 28vh;
+    }
+     .Content p {
+        font-size: 16px;
+      }
+
+      .Content .herotext .right {
+        padding: 0.5rem 1.2rem;
+        width: 90%;
+      }
+      .Content .herotext button {
+      padding: 10px 3.5rem;
+      }
+     .Content .herotext p {
+      font-size: 12px;
+     }
+
+     .Content .menus {
+      margin-top: -1rem;
+     }
+      .Content .con-wrapper .intro-text {
+        margin: 0;
+      }
+
+      .Content .con-wrapper .intro-text h2,
+      .Content .con-wrapper .intro-text h2 strong,
+      .Content .con-wrapper2 h2,
+      .Content .con-wrapper2 h2 strong {
+        font-size: 3rem;
+      }
+
+
+      .Content .con-wrapper2 h2,
+      .Content .con-wrapper2 h2 strong {
+        padding: 0 2rem;
+      }
+      .Content .intro-pics img {
+        width: 100%;
+        padding: 0;
+        margin-top: 2rem;
+      }
+      .Content .intro-pics .a2 {
+        display: none;
+      }
+    }
+    /*End Content/Main Body*/
