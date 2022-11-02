@@ -30,7 +30,7 @@
         url("../assets/IMG_1967.jpg");
 }
 .container2 .title {
-  padding-top: 15rem;
+  padding-top: 25rem;
   color: white;
   font-size: 4rem;
 }
@@ -147,6 +147,9 @@ hr {
     margin: -5rem;
     position: relative;
   }
+  .container2 .title {
+    padding-top: 20rem;
+  }
   .main {
     /* padding-left: 80px; */
     margin-top: 25px;
@@ -158,14 +161,11 @@ hr {
   .container2 {
     padding: 0 1rem;
   }
+    .container2 .title {
+      padding-top: 25rem;
+    }
   .main {
     padding: 0 1rem;
-  }
-
-  .container2 .title {
-    padding-top: 18rem;
-    color: white;
-    font-size: 4rem;
   }
 
   .row2 {
@@ -188,14 +188,17 @@ hr {
     padding: 0 1rem;
   }
 
-  .container2 .title {
-    padding-top: 10rem;
+  /* .container2 .title {
+    
     color: white;
     font-size: 4rem;
-  }
+  } */
 
   .row2 {
     flex-direction: column;
+  }
+  div .card {
+    width: 100%;
   }
   .main .cardHolder .cards {
     margin-top: 25px;

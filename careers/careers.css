@@ -85,7 +85,14 @@ main {
 .listingPage .maincontent {
   padding: 4rem 10rem 1rem 10rem;
 }
-
+.search {
+  width: 500px;
+  padding: 1rem;
+  height: 150px;
+}
+.search::placeholder {
+  color: #652e89;
+}
 .listingPage .herobg {
   background-image: linear-gradient(
       to right,
@@ -242,6 +249,23 @@ main {
   }
 }
 @media (max-width: 600px) {
+  /* Landing page */
+  .landingPage .container {
+      padding: 5rem;
+      width: 100%;
+    }
+
+        .landingPage .cards {
+          flex-direction: column;
+        }
+        .landingPage .card {
+          width: 100%;
+        }
+.landingPage .categories button {
+  width: 100%;
+}
+    /* end */
+
   .listingPage .maincontent {
     padding: 4rem 2rem 1rem 2rem;
     overflow: hidden;
@@ -256,6 +280,12 @@ main {
   .listingPage .sidenav label {
     font-size: 1.5rem;
   }
+    .listingPage select {
+      width: 100%;
+      padding: 1rem;
+      margin: 1rem 0;
+      padding: 1rem
+    }
 
   /* grid items */
 

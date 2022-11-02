@@ -142,6 +142,12 @@ input::placeholder {
   section {
     padding: 1rem;
   }
+    .hero h2 {
+      padding: 15rem 3rem;
+    }
+        .nav-tabs a {
+          font-size: 16px;
+        }
   .image img {
     margin-left: 0;
     height: 250px;

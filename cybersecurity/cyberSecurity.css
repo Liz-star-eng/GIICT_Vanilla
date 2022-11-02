@@ -134,6 +134,9 @@ input::placeholder {
   }
 }
 @media (max-width: 600px) {
+  .hero h2 {
+    padding: 15rem 3rem;
+  }
   section {
     padding: 1rem;
   }
@@ -188,6 +191,9 @@ input::placeholder {
   .arrow {
     margin: 0;
     padding: 0;
+  }
+  .nav-tabs a {
+    font-size: 16px;
   }
 }
 @media (max-width: 360px) {
