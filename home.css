@@ -514,4 +514,13 @@
         display: none;
       }
     }
+         @media only screen and (max-width: 375px){
+            .Content .herotext .right {
+                padding: 0.2rem 1.2rem;
+                width: 90%;
+              }
+                            .Content .herotext button {
+                              padding: 5px 3.5rem;
+                            }
+         }
     /*End Content/Main Body*/
