@@ -23,194 +23,165 @@
   </head>
   <body>
     <div id="body">
-      <!--   Start TopNav   -->
-      <div class="TopNav">
-        <div class="header">
-          <nav class="topBar bigscreen">
-            <div class="H-container">
-              <div class="user">
-                <a href="/about-us"><i class="fa fa-user"></i> About Us</a>
-                <a href="" class="cta"> Ask for help </a>
-              </div>
-              <div class="social">
-                <a class="text" href="../users/login.html"
-                  ><i class="fa fa-sign-in" aria-hidden="true"></i>
-                  Login
-                </a>
-                <div class="socialIcons">
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-instagram"></i></a>
-                  <a href=""><i class="fa fa-youtube"></i></a>
-                </div>
-              </div>
-            </div>
-          </nav>
-
-          <header>
-            <div class="navBar">
-              <a href="/index.html" class="title"
-                ><img src="../assets/girlslogo.png" alt="" />
-              </a>
-              <nav class="menuItems">
-                <li class="dropdown">
-                  <a class="dropbtn"
-                    ><i class="fa fa-address-book-o"></i> Directory
-                    <i class="fa fa-chevron-down"></i
-                  ></a>
-                  <div class="dropdown-content">
-                    <a href="/mentors/mentors.html">Mentors</a>
-                    <a href="/careers/careersLanding.html">Careers</a>
-                    <!-- <a href="" to="/StudentsViews">Students</a> -->
-                  </div>
-                </li>
-                <li class="dropdown">
-                  <a class="dropbtn"
-                    ><i class="fa fa-folder-open-o"></i> Forum
-                    <i class="fa fa-chevron-down"></i
-                  ></a>
-                  <div class="dropdown-content">
-                    <!--                    <a href="" to="/moccorner">MoC Corner</a>-->
-                    <a href="/forum/letsChat.html">Let's Chat</a>
-                  </div>
-                </li>
-                <li class="dropdown">
-                  <a class="dropbtn"
-                    ><i class="fa fa-graduation-cap"></i> Training
-                    <i class="fa fa-chevron-down"></i
-                  ></a>
-                  <div class="dropdown-content">
-                    <a href="/Training/primary.html">Primary/JHS</a>
-                    <a href="/Training/shs.html">SHS</a>
-                    <a href="/Training/tertiary.html">Tertiary</a>
-                  </div>
-                </li>
-                <li class="dropdown">
-                  <a class="dropbtn"
-                    ><i class="fa fa-fire"></i> Episodes
-                    <i class="fa fa-chevron-down"></i
-                  ></a>
-                  <div class="dropdown-content">
-                    <a href="/episodes/upcoming.html">Upcoming</a>
-                    <a href="/episodes/past.html">Past</a>
-                  </div>
-                </li>
-                <li class="dropdown">
-                  <a class="dropbtn"
-                    ><i class="fa fa-archive"></i> Information Hub
-                    <i class="fa fa-chevron-down"></i
-                  ></a>
-                  <div class="dropdown-content">
-                    <a href="/cybersecurity/CyberSecurity.html"
-                      >Cybersecurity</a
-                    >
-                  </div>
-                </li>
-                <li class="dropdown">
-                  <a class="dropbtn"
-                    ><i class="fa fa-tasks"></i> Programs
-                    <i class="fa fa-chevron-down"></i
-                  ></a>
-                  <div class="dropdown-content">
-                    <a href="/cybersecurity/CyberSecurity.html"
-                      >CyberSecurity</a
-                    >
-                    <a href="/cybersecurity/programming.html">Programming</a>
-                  </div>
-                </li>
-              </nav>
-
-              <div class="search-bar">
-                <!-- <input type="text" placeholder="what's on your mind" /> -->
-                <button><i class="fa fa-search"></i></button>
-              </div>
-              <i class="fa fa-bars menuBars" onclick="toggleNav()"></i>
-            </div>
-          </header>
-
-          <!-- toggle navbar -->
-          <div class="ResponsiveNav slideUp" onclick="close()">
-            <nav class="NavItems">
-              <li class="dropdown">
-                <a class="dropbtn"
-                  ><i class="fa fa-address-book-o"></i> Directory
-                  <i class="fa fa-chevron-down arrow-down"></i
-                ></a>
-                <div class="dropdown-content">
-                  <!-- <a href="/directorylistings">Mentors</a> -->
-                  <a href="/mentors/mentors.html">Mentors</a>
-                  <a href="/careers/careersLanding.html">Careers</a>
-                  <!-- <a href="/StudentsViews">Students</a> -->
-                </div>
-              </li>
-              <li class="dropdown">
-                <a class="dropbtn"
-                  ><i class="fa fa-folder-open-o"></i> Forum
-                  <i class="fa fa-chevron-down arrow-down"></i
-                ></a>
-                <div class="dropdown-content">
-                  <a href="/forum/letsChat.html">Let's Chat</a>
-                  <!-- <a href="/moccorner">Mentors</a>
-                  <a href="/careers">Carreers</a> -->
-                </div>
-              </li>
-              <li class="dropdown">
-                <a class="dropbtn"
-                  ><i class="fa fa-graduation-cap"></i>Training
-                  <i class="fa fa-chevron-down arrow-down"></i
-                ></a>
-                <div class="dropdown-content">
-                  <a href="/Training/primary.html">Primary/JHS</a>
-                  <a href="/Training/shs.html">SHS</a>
-                  <a href="/Training/tertiary.html">Tertiary</a>
-                </div>
-              </li>
-              <li class="dropdown">
-                <a class="dropbtn"
-                  ><i class="fa fa-fire"></i> Events
-                  <i class="fa fa-chevron-down arrow-down"></i
-                ></a>
-                <div class="dropdown-content">
-                  <a href="/episodes/upcoming.html">Upcoming</a>
-                  <a href="/episodes/past.html">Past</a>
-                </div>
-              </li>
-              <li class="dropdown">
-                <a class="dropbtn"
-                  ><i class="fa fa-archive"></i> Information Hub
-                  <i class="fa fa-chevron-down arrow-down"></i
-                ></a>
-                <div class="dropdown-content">
-                  <a href="/cybersecurity/CyberSecurity.html">Cybersecurity</a>
-                </div>
-              </li>
-              <li class="dropdown">
-                <a class="dropbtn"
-                  ><i class="fa fa-archive"></i> Programs
-                  <i class="fa fa-chevron-down arrow-down"></i
-                ></a>
-                <div class="dropdown-content">
-                  <a href="/cybersecurity/CyberSecurity.html">CyberSecurity</a>
-                  <a href="/cybersecurity/programming.html">Programming</a>
-                </div>
-              </li>
-            </nav>
-            <div class="sectionAsk">
-              <div class="search-bar">
-                <input type="text" placeholder="What are you looing for?" />
-                <button><i class="fa fa-search"></i></button>
-              </div>
-            </div>
-            <a onclick="close()">
-              <i onclick="close()" id="close" class="fa fa-times close"></i>
+  <!--   Start TopNav   -->
+  <div class="TopNav">
+    <div class="header">
+      <nav class="topBar bigscreen">
+        <div class="H-container">
+          <div class="user">
+            <a href="/about-us"><i class="fa fa-user"></i> About Us</a>
+            <a href="" class="cta"> Ask for help </a>
+          </div>
+          <div class="social">
+            <a class="text" href="../users/login.html"><i class="fa fa-sign-in" aria-hidden="true"></i>
+              Login
             </a>
+            <div class="socialIcons">
+              <a href=""><i class="fa fa-facebook"></i></a>
+              <a href=""><i class="fa fa-linkedin"></i></a>
+              <a href=""><i class="fa fa-twitter"></i></a>
+              <a href=""><i class="fa fa-instagram"></i></a>
+              <a href=""><i class="fa fa-youtube"></i></a>
+            </div>
           </div>
         </div>
+      </nav>
+  
+      <header>
+        <div class="navBar">
+          <a href="/index.html" class="title"><img src="../assets/girlslogo.png" alt="" />
+          </a>
+          <nav class="menuItems">
+            <li class="dropdown">
+              <a class="dropbtn"><i class="fa fa-address-book-o"></i> Directory
+                <i class="fa fa-chevron-down"></i></a>
+              <div class="dropdown-content">
+                <a href="/mentors/mentors.html">Mentors</a>
+                <a href="/careers/careersLanding.html">Careers</a>
+                <!-- <a href="" to="/StudentsViews">Students</a> -->
+              </div>
+            </li>
+            <li class="dropdown">
+              <a class="dropbtn"><i class="fa fa-folder-open-o"></i> Forum
+                <i class="fa fa-chevron-down"></i></a>
+              <div class="dropdown-content">
+                <!--                    <a href="" to="/moccorner">MoC Corner</a>-->
+                <a href="/forum/letsChat.html">Let's Chat</a>
+              </div>
+            </li>
+            <li class="dropdown">
+              <a class="dropbtn"><i class="fa fa-graduation-cap"></i> Training
+                <i class="fa fa-chevron-down"></i></a>
+              <div class="dropdown-content">
+                <a href="/Training/primary.html">Primary/JHS</a>
+                <a href="/Training/shs.html">SHS</a>
+                <a href="/Training/tertiary.html">Tertiary</a>
+              </div>
+            </li>
+            <li class="dropdown">
+              <a class="dropbtn"><i class="fa fa-fire"></i> Episodes
+                <i class="fa fa-chevron-down"></i></a>
+              <div class="dropdown-content">
+                <a href="/episodes/upcoming.html">Upcoming</a>
+                <a href="/episodes/past.html">Past</a>
+              </div>
+            </li>
+            <li class="dropdown">
+              <a class="dropbtn"><i class="fa fa-archive"></i> Information Hub
+                <i class="fa fa-chevron-down"></i></a>
+              <div class="dropdown-content">
+                <a href="/cybersecurity/CyberSecurity.html">Cybersecurity</a>
+              </div>
+            </li>
+            <li class="dropdown">
+              <a class="dropbtn"><i class="fa fa-tasks"></i> Programs
+                <i class="fa fa-chevron-down"></i></a>
+              <div class="dropdown-content">
+                <a href="/cybersecurity/CyberSecurity.html">CyberSecurity</a>
+                <a href="/cybersecurity/programming.html">Programming</a>
+              </div>
+            </li>
+          </nav>
+  
+          <div class="search-bar">
+            <!-- <input type="text" placeholder="what's on your mind" /> -->
+            <button><i class="fa fa-search"></i></button>
+          </div>
+          <i class="fa fa-bars menuBars" onclick="toggleNav()"></i>
+        </div>
+      </header>
+  
+      <!-- toggle navbar -->
+      <div class="ResponsiveNav slideUp" onclick="close()">
+        <nav class="NavItems">
+          <li class="dropdown">
+            <a class="dropbtn"><i class="fa fa-address-book-o"></i> Directory
+              <i class="fa fa-chevron-down arrow-down"></i></a>
+            <div class="dropdown-content">
+              <!-- <a href="/directorylistings">Mentors</a> -->
+              <a href="/mentors/mentors.html">Mentors</a>
+              <a href="/careers/careers">Careers</a>
+              <!-- <a href="/StudentsViews">Students</a> -->
+            </div>
+          </li>
+          <li class="dropdown">
+            <a class="dropbtn"><i class="fa fa-folder-open-o"></i> Forum
+              <i class="fa fa-chevron-down arrow-down"></i></a>
+            <div class="dropdown-content">
+              <a href="/forum/letsChat.html">Let's Chat</a>
+              <!-- <a href="/moccorner">Mentors</a>
+                    <a href="/careers">Carreers</a> -->
+            </div>
+          </li>
+          <li class="dropdown">
+            <a class="dropbtn"><i class="fa fa-graduation-cap"></i>Training
+              <i class="fa fa-chevron-down arrow-down"></i></a>
+            <div class="dropdown-content">
+              <a href="/Training/primary.html">Primary/JHS</a>
+              <a href="/Training/shs.html">SHS</a>
+              <a href="/Training/tertiary.html">Tertiary</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a class="dropbtn"><i class="fa fa-fire"></i> Events
+              <i class="fa fa-chevron-down arrow-down"></i></a>
+            <div class="dropdown-content">
+              <a href="/episodes/upcoming.html">Upcoming</a>
+              <a href="/episodes/past.html">Past</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a class="dropbtn"><i class="fa fa-archive"></i> Information Hub
+              <i class="fa fa-chevron-down arrow-down"></i></a>
+            <div class="dropdown-content">
+              <a href="/cybersecurity/CyberSecurity.html">Cybersecurity</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a class="dropbtn"><i class="fa fa-archive"></i> Programs
+              <i class="fa fa-chevron-down arrow-down"></i></a>
+            <div class="dropdown-content">
+              <a href="/cybersecurity/CyberSecurity.html">CyberSecurity</a>
+              <a href="/cybersecurity/programming.html">Programming</a>
+            </div>
+          </li>
+        </nav>
+        <div class="sectionAsk">
+          <div class="search-bar">
+            <input type="text" placeholder="What are you looing for?" />
+            <button><i class="fa fa-search"></i></button>
+          </div>
+        </div>
+        <a onclick="close()">
+          <i onclick="close()" id="close" class="fa fa-times close"></i>
+        </a>
       </div>
-      <!--   End TopNav   -->
+    </div>
+  </div>
+  <!--   End TopNav   -->
 
 <!--   Start Content  -->
+  <main class="mainContent">
       <div class="Details">
         <div class="main-body">
           <main class="row">
@@ -328,6 +299,7 @@
           </main>
         </div>
       </div>
+    </main>
 <!--   End Content   -->
 
       <!-- Start Partners  -->

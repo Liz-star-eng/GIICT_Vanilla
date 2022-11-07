@@ -38,7 +38,7 @@
 
 .contribution .content {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 /* .content2 {
   border-left: 1px solid grey;
@@ -106,5 +106,11 @@
   .cards {
     justify-content: center;
     text-align: center;
+  }
+  .contribution .content {
+    flex-wrap: wrap;
+  }
+  .hr {
+    display: none;
   }
 }

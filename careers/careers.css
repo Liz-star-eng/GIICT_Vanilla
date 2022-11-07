@@ -113,9 +113,9 @@ main {
   font-weight: bold;
 }
 .listingPage .content {
-  max-width: 95%;
   margin: auto;
-  display: flex;
+  display: flex !important;
+  flex-direction: row;
 }
 /* left side */
 .listingPage .sidenav {
@@ -154,6 +154,9 @@ main {
 }
 
 /* end */
+.landingPage .container {
+  width: 80%;
+}
 .listingPage .grid-container {
   display: grid;
   grid-template-columns: 30% 30% 30%;
