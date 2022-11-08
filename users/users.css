@@ -2,6 +2,10 @@ main {
   padding: 20rem 1rem 5rem 1rem;
   background-color: antiquewhite;
 }
+
+.text h3 {
+
+}
 .login {
   max-width: 80%;
   margin: auto;
@@ -48,7 +52,10 @@ input {
   color: white;
 }
 .background img {
-  margin-top: 10rem;
+  margin-top: 3rem;
+}
+.text h3 {
+  margin-top: 8rem;
 }
 section {
   padding: 10rem 7rem;
