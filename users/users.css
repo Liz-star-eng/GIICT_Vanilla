@@ -25,13 +25,14 @@ input {
   border-radius: 5px;
 }
 .form button {
-  border-radius: 10px;
+  border-radius: 25px;
   border: none;
   background-color: rgba(101, 46, 137, 0.9);
   color: #ffcb51;
-  padding: 1rem 7rem;
+  padding: 1rem 5rem;
+  margin: 1rem 8rem;
 }
-.form button,
+
 .form .forgotpsd {
   margin: 1rem 2rem;
 }
@@ -70,11 +71,11 @@ img {
     max-width: 100%;
     padding: 1rem 0;
   }
-  input,
+  /* input,
   .form button {
     width: 70%;
     padding: 2rem 2rem;
-  }
+  } */
   .background {
     display: none;
   }
@@ -83,10 +84,10 @@ img {
     font-size: 24px;
   }
   .form-body {
-    background-image: url("../../assets/logo.png");
+    background-image: url('../assets/012_drops_yellow_purple_big.webp');
     background-repeat: no-repeat;
-    background-position: center top;
-    background-size: contain;
+    background-position: center;
+    background-size: repeat;
     box-shadow: 5px 2px 4px rgb(145, 141, 141);
     width: 100%;
     margin: auto;
@@ -103,6 +104,9 @@ img {
     color: rgb(255, 255, 255);
     text-decoration: underline;
   }
+  .form button {
+    margin-left: 17rem;
+  }
   .img {
     display: none;
   }
@@ -114,15 +118,20 @@ img {
 
     .form {
       padding: 1rem !important;
-      font-size: 18px;
+      font-size: 16px;
     }
     input {
       margin: 2rem 0 2rem 1.5rem !important;
+      padding: 1rem;
     }
 
-    input,
-    .form button {
+    input{
       width: 90%;
+    }
+    .form button {
+      padding: 1rem;
+      width: 50%;
+      margin-left: 8rem;
     }
   }
 }
