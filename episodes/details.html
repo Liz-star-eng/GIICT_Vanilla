@@ -29,8 +29,8 @@
       <nav class="topBar bigscreen">
         <div class="H-container">
           <div class="user">
-            <a href="/about-us"><i class="fa fa-user"></i> About Us</a>
-            <a href="" class="cta"> Ask for help </a>
+            <a href="/aboutUs/aboutus.html"><i class="fa fa-user"></i> About Us</a>
+            <a href="/contact/contactUs.html" class="cta"> Ask for help </a>
           </div>
           <div class="social">
             <a class="text" href="../users/login.html"><i class="fa fa-sign-in" aria-hidden="true"></i>
@@ -105,7 +105,7 @@
   
           <div class="search-bar">
             <!-- <input type="text" placeholder="what's on your mind" /> -->
-            <button><i class="fa fa-search"></i></button>
+            <button onclick="openSearch()"><i class="fa fa-search"></i></button>
           </div>
           <i class="fa fa-bars menuBars" onclick="toggleNav()"></i>
         </div>
@@ -130,7 +130,7 @@
             <div class="dropdown-content">
               <a href="/forum/letsChat.html">Let's Chat</a>
               <!-- <a href="/moccorner">Mentors</a>
-                    <a href="/careers">Carreers</a> -->
+                                    <a href="/careers">Carreers</a> -->
             </div>
           </li>
           <li class="dropdown">
@@ -176,6 +176,17 @@
           <i onclick="close()" id="close" class="fa fa-times close"></i>
         </a>
       </div>
+    </div>
+  </div>
+  <div id="myOverlay" class="overlay">
+    <span class="closebtn" onclick="closeSearch()" title="Close Overlay">x</span>
+    <div class="overlay-content">
+      <form action="/action_page.php">
+        <input type="text" placeholder="Search.." />
+        <button type="submit" class="tab-search">
+          <i class="fa fa-search"></i>
+        </button>
+      </form>
     </div>
   </div>
   <!--   End TopNav   -->
@@ -485,22 +496,25 @@
       </div>
       <!--   End Footer   -->
     </div>
-    <script>
-      const nav = document.querySelector(".ResponsiveNav");
+      <script>
+        const nav = document.querySelector(".ResponsiveNav");
 
-      function toggleNav() {
-        if (nav.className === "ResponsiveNav") {
-          nav.className += " slideUp";
-        } else {
-          nav.className = "ResponsiveNav";
+        function toggleNav() {
+          if (nav.className === "ResponsiveNav") {
+            nav.className += " slideUp";
+          } else {
+            nav.className = "ResponsiveNav";
+          }
         }
-      }
 
-      function showSearchBar() {
-        const search = document.getElementById('search')
-        alert(search)
-      }
-    </script>
+        function openSearch() {
+          document.getElementById("myOverlay").style.display = "block";
+        }
+
+        function closeSearch() {
+          document.getElementById("myOverlay").style.display = "none";
+        }
+      </script>
 
     <!-- bootstrap cdn -->
     <script src="https://use.fontawesome.com/c025c70727.js"></script>
