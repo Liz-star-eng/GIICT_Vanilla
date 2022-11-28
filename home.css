@@ -2,6 +2,9 @@
       overflow: hidden;
        padding: 13rem 0 1rem 0;
     }
+        .Content .main-body p, ul, li {
+          font-size: 16px;
+        }
     /* Hero background */
     .Content .herobg, .Content .herotext {
       height: 65vh;
@@ -262,6 +265,11 @@
     }
 
     /* whats our specialty card */
+    .specialty-content {
+      max-width: 80%;
+      margin: auto;
+      text-align: center;
+    }
     .Content .row-2 {
       display: flex;
       justify-content: center;

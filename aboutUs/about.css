@@ -1,6 +1,7 @@
 .mainBody {
     padding-top: 15rem;
     overflow: hidden;
+    font-size: 18px;
 }
 
 section {
@@ -9,7 +10,7 @@ section {
 }
 
 .container {
-    max-width: 80%;
+    width: 90%;
     margin: auto;
 }
 
@@ -19,7 +20,7 @@ section {
     height: 200px;
     background-color: #652e89;
     align-content: center;
-    font-size: 1.3rem;
+    font-size: 2rem;
 }
 
 .about h1 {
@@ -73,9 +74,10 @@ section {
     margin: 50px 0 0 0;
 }
 
-.ourteamtitle h1 {
+.ourteamtitle h1, .ourteamtitle p {
     text-align: center;
 }
+
 
 .ourpartner {
     margin-bottom: 50px;
@@ -84,6 +86,10 @@ section {
 }
 
 /* Grid cards*/
+.container2 {
+    max-width: 80%;
+    margin: auto;
+}
 .grid-conainer {
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
@@ -96,8 +102,7 @@ section {
 }
 
 .cards img {
-    width: 150px;
-    height: 220px;
+    height: 30vh;
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
