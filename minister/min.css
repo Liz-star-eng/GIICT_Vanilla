@@ -1,0 +1,115 @@
+.mainContent {
+    padding-top: 15rem;
+    overflow: hidden;
+    font-size: 18px;
+}
+.aboutUs{
+    width: 100vw;
+    overflow: hidden;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.about {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-color: #652e89;
+    align-content: center;
+    font-size: 2rem;
+}
+
+.about h1 {
+    padding-top: 50px;
+    color: white;
+}
+
+/* message */
+
+.con-wrapper3 {
+    padding: 0 10rem;
+}
+
+.mins-msg {
+    display: flex;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.minsImage img {
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.mins-text {
+    margin: 0 30px;
+}
+
+.mins-text h2 {
+    font-size: 4rem;
+    padding: 20px 0;
+}
+
+.mins-text h2 strong {
+    padding-top: 3rem;
+    color: #652e89;
+}
+
+#cont {
+    display: none;
+}
+
+#readMore {
+    border-radius: 5px;
+    border: none;
+    padding: 7px;
+}
+.addedContent {
+    background-color: antiquewhite;
+    text-align: left;
+    padding: 1rem 15rem;
+}
+@media only screen and (max-width: 1280px) {
+    .mins-text {
+            margin: 0 20px;
+        }
+                .addedContent {
+                    padding:1rem 10rem;
+                }
+}
+@media only screen and (max-width: 1114px) {
+    .mins-text {
+            margin: 0 5px;
+        }
+}
+
+ @media only screen and (max-width: 992px){
+  .mins-msg {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    
+    .con-wrapper3 {
+            padding: 0;
+        }
+    
+    .con-wrapper3 img {
+            width: 100%;
+            height: 100%;
+        }
+.addedContent {
+    padding: 1rem 4rem;
+}
+}
+ @media only screen and (max-width: 600px) {
+    .mins-text {
+            margin: 0 10px;
+        }
+    .addedContent {
+            padding: 1rem;
+        }
+ }

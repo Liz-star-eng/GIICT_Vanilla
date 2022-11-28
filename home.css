@@ -407,6 +407,14 @@
       padding-top: 3rem;
       color: #652e89;
     }
+    #cont {
+      display: none;
+    }
+    #readMore {
+      border-radius: 5px;
+      border: none;
+      padding: 7px;
+    }
     /* end */
     @media only screen and (max-width: 1280px) {
        .Content .herotext {
