@@ -68,6 +68,9 @@
     border: none;
     padding: 7px;
 }
+#readMore:hover {
+    cursor: pointer;
+}
 .addedContent {
     background-color: antiquewhite;
     text-align: left;

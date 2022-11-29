@@ -410,11 +410,14 @@
     #cont {
       display: none;
     }
-    #readMore {
-      border-radius: 5px;
-      border: none;
-      padding: 7px;
+    #readMore {     
+      color: #652e89;
     }
+         #readMore button {
+          border: none;
+          border-radius: 5px;
+          padding: 7px;
+         }
     /* end */
     @media only screen and (max-width: 1280px) {
        .Content .herotext {
