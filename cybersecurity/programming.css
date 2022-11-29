@@ -3,21 +3,32 @@ section {
   transition: 0.3s ease-in-out;
 }
 
+.hero, .hero-scratch {
+      height: 40vh;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-color: black;
+    
+}
 .hero {
   background-image: linear-gradient(
       to right,
       rgba(0, 0, 0, 0.9),
       rgba(0, 0, 0, 0.4)
     ),
-    url("../../assets/cyber.jpg");
-  height: 40vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-color: black;
-  color: #f9be2a;
+    url("../assets/cyber.jpg");
+      color: #f9be2a;
 }
-.hero h2 {
+.hero-scratch {
+  background-image: linear-gradient(to right,
+        rgba(0, 0, 0, 0.9),
+        rgba(0, 0, 0, 0.4)),
+      url("../assets/scratch-og.png");
+        color: whitesmoke;
+        background-position: center;
+}
+.hero h2, .hero-scratch h2 {
   padding: 15rem 10rem;
   text-align: center;
   font-weight: bold;
