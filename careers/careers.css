@@ -24,8 +24,7 @@ main {
   font-size: 40px;
 }
 .landingPage .container {
-  padding: 5rem;
-  width: 40%;
+  padding: 5rem 25rem;
 }
 .landingPage .container h3 {
   padding: 0 0 3rem 0;
@@ -36,7 +35,9 @@ main {
   padding: 5rem 0;
   text-align: center;
 }
-.landingPage .categories h2 {
+.landingPage .categories h2,
+.landingPage .categories h1,
+.landingPage .categories p  {
   color: aliceblue;
 }
 
@@ -251,21 +252,37 @@ main {
     margin-top: 20px;
   }
 }
+@media (max-width: 992px) {
+  .landingPage .container {
+      padding: 4rem;
+      width: 100%;
+    }
+         .landingPage .cards {
+           max-width: 100%;
+           padding: 0;
+           margin: 0;
+           flex-wrap: wrap;
+         }
+                 .landingPage .categories button {
+                   width: 50%;
+                 }
+}
 @media (max-width: 600px) {
   /* Landing page */
   .landingPage .container {
-      padding: 5rem;
+      padding: 1rem;
       width: 100%;
     }
 
         .landingPage .cards {
           flex-direction: column;
+          width: 100%;
         }
         .landingPage .card {
           width: 100%;
         }
 .landingPage .categories button {
-  width: 100%;
+  width: 80%;
 }
     /* end */
 

@@ -266,7 +266,7 @@
 
     /* whats our specialty card */
     .specialty-content {
-      max-width: 80%;
+      max-width: 50%;
       margin: auto;
       text-align: center;
     }
@@ -485,6 +485,9 @@
      .Content .con-wrapper {
         flex-direction: column;
       }
+            .specialty-content {
+              max-width: 90%;
+            }
     }
     @media only screen and (max-width: 600px) {
       .Content .herobg, .Content .herotext {
@@ -532,6 +535,9 @@
       .Content .intro-pics .a2 {
         display: none;
       }
+            .specialty-content {
+              max-width: 90%;
+            }
     }
          @media only screen and (max-width: 375px){
             .Content .herotext .right {
