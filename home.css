@@ -249,6 +249,10 @@
       color: #652e89;
     }
 
+    .Content .pastEvent p {
+      padding: 0.5rem 30rem;
+    }
+
     .Content .pastEvent .containerEvents {
       display: flex;
       justify-content: center;
@@ -263,6 +267,7 @@
       object-position: center;
       border-radius: 10px;
     }
+    
 
     /* whats our specialty card */
     .specialty-content {
@@ -433,6 +438,10 @@
         .Content .con-wrapper3 {
           padding: 2.5rem;
         }
+                 /* past event */
+                 .Content .pastEvent p {
+                   padding: 0.5rem 10rem;
+                 }
     }
     @media only screen and (max-width: 992px) {
       .Content p {
@@ -488,6 +497,10 @@
             .specialty-content {
               max-width: 90%;
             }
+            /* past event */
+             .Content .pastEvent p {
+          padding: 0.5rem 4rem;
+         }
     }
     @media only screen and (max-width: 600px) {
       .Content .herobg, .Content .herotext {
@@ -546,6 +559,9 @@
             .specialty-content {
               max-width: 90%;
             }
+     .Content .pastEvent p {
+          padding: 0.5rem 3rem;
+         }
     }
          @media only screen and (max-width: 375px){
             .Content .herotext .right {
