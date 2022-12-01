@@ -409,8 +409,8 @@ body {
   height: 60px;
 }
 
-.partners .carousel-control.right, .partners
-.carousel-control.left {
+.partners .carousel-control.right, .partners.carousel-control.left
+ {
   background-color: white;
   background-image: none;
   color: #652e89;
